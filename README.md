@@ -16,3 +16,12 @@ https://www.youtube.com/watch?v=p_BsFdV_LUk&list=PL4aUQR9L9RFp7kuu38hInDE-9ByueE
 
 
 conda install -c conda-forge gdal -> Already ad it installed in my venv of conda. 
+
+
+Data were download in jp2 file -> https://geopyspark.readthedocs.io/en/latest/tutorials/reading-in-sentinel-data.html was used. 
+
+Installed rasterio and pygeoaprk
+pip install pyspark --user
+
+rio env --formats
+
