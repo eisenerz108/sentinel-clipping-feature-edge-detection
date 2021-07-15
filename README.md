@@ -19,6 +19,8 @@ Steps :
 10. For SEntinel Data information, click [here](https://user-images.githubusercontent.com/75158219/125817870-a203715b-a81d-4f8b-936e-ca3fc8ca1f9b.png)
 Reference taken from https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l2a/
 SCL - Scene Classification Data
+11. Converting the SCL Layers to NoValue. https://sentinel.esa.int/web/sentinel/technical-guides/sentinel-2-msi/level-2a/algorithm
+12. 
 
 
 
