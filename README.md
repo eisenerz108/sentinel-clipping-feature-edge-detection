@@ -2,14 +2,22 @@
 
 ## Contents :
 1. [Tools Used And Data](#tools-used-and-data)
+2. 
 
 
-## Tools Used and Data 
+### Tools Used and Data 
 
 * Jupter Notebook - GIS Virtual Env was already ready with me. 
 * QGIS
 * GitHub
-* Data downloaded from [[1]](#1)
+* Area of Interest Data downloaded from [[1]](#1) in GeoJSON format 
+
+
+### Steps Executed 
+
+1. I processed the GeoJSON data in Jupyter Notebook. 
+2. Using Kepler GL, I found the AreaofInterest is North Eastern Part of Berlin, Germany. 
+
 
 ## References
 <a id="1">[1]</a> 
