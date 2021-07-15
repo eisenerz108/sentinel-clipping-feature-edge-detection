@@ -12,6 +12,7 @@ Steps :
    * Product Type as S2MSI2A
    * Year 2020 
    * (Through this I was able to download the correct data with the requirement - `Sentinel-2 level 2A tile from any practical TOI (2019 or 2020)`
+6. I selected the 12 (Total 13, but removed 10 - cirrus band that gives no ground information) specific bands which are needed which I refered from [here](https://en.wikipedia.org/wiki/Sentinel-2)
 
 
 
