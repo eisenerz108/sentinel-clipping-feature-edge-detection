@@ -1,7 +1,18 @@
 # Aman_GIS_LiveEO_Task
 
+## Tools Used and Data 
 
-Steps : 
+* Jupter Notebook - GIS Virtual Env was already ready with me. 
+* QGIS
+* GitHub
+* Data downloaded from [[1]](#1)
+
+## References
+<a id="1">[1]</a> 
+https://drive.google.com/file/d/1cYulst52qOsx1VOOtVQo5sRdUugYqEpl/view
+
+
+
 1. I used Jupyter Notebook as I already had a gis virtual env setup in conda. 
 2. I downloaded the Area Of Interest from the Google Drive, link [here](https://drive.google.com/file/d/1cYulst52qOsx1VOOtVQo5sRdUugYqEpl/view) :
 3. Using Kepler GL, I found the AreaofInterest is North Eastern Part of Berlin, Germany (click [here](https://user-images.githubusercontent.com/75158219/125793336-f5376d2b-d7e4-422f-84db-51c812989205.png)), and with this I got to know, the satellite image needs to be downloaded for the part which has Berlin, Germany. 
