@@ -13,6 +13,11 @@ Steps :
    * Year 2020 
    * (Through this I was able to download the correct data with the requirement - `Sentinel-2 level 2A tile from any practical TOI (2019 or 2020)`
 6. I selected the 12 (Total 13, but removed 10 - cirrus band that gives no ground information) specific bands which are needed which I refered from [here](https://en.wikipedia.org/wiki/Sentinel-2)
+7. I opened those 12 Bands in the QGIS as created a Virtual Layer using all the raster files. I read the description about the Blue, Green and Red bands from https://www.satimagingcorp.com/satellite-sensors/other-satellite-sensors/sentinel-2a/
+8. I created a virtual Layer of the BGR Bands (2,3,4), but there was a color mismatch, so I edited the virtual layer and set the BGR (Specific to each band), and I was able to see an observable satellite map of Berlin (And surroundings). 
+9. Just to validate the Correct data has been downloaded, I verified by adding the AOI on top of the layer, and here is the output. ![image](https://user-images.githubusercontent.com/75158219/125797631-ee2083a9-ead1-43ee-8da8-0556fbf9968d.png)
+10. 
+
 
 
 
