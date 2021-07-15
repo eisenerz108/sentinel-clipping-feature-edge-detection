@@ -2,7 +2,7 @@
 
 ## Contents :
 1. [Tools Used And Data](#tools-used-and-data)
-2. [Steps Executed](#steps-executed)
+2. [Steps Executed](#steps-executed-data-preprocessing)
 
 
 ### Tools Used and Data 
@@ -13,10 +13,10 @@
 * **Data** - Area of Interest Data was downloaded from the Google Driver [[1]](#1) in GeoJSON format 
 
 
-### Steps Executed 
+### Steps Executed Data Preprocessing
 
 1. I processed the GeoJSON data in Jupyter Notebook. 
-2. Using Kepler GL, I found the AreaofInterest is North Eastern Part of Berlin, Germany. Picture can be found [here](https://user-images.githubusercontent.com/75158219/125793336-f5376d2b-d7e4-422f-84db-51c812989205.png) or from `images\Task1_KeplerGLLocationDetection.jpg`
+2. Using Kepler GL, I found the AreaofInterest is North Eastern Part of Berlin, Germany. Picture can be found [here](https://user-images.githubusercontent.com/75158219/125793336-f5376d2b-d7e4-422f-84db-51c812989205.png) or from `images\Task1_KeplerGLLocationDetection.png`
 3. I was downloading the data from USGS Gov Website [[2]](#2), but the partnership between ESA and the USGS allows only for the distribution of Level-1C. As per the Task we need Level 2-A Data. 
 4. Finally, I downloaded the data from Copernicus Open Access Hub [[3]](#3) with the following properties :
    * Selected the Berlin Location
@@ -29,7 +29,7 @@
 7.  I opened those 13 Bands (12 + 1 SCL) in the QGIS and created a Virtual Layer and eventually merged all of the bands in the TGIF format (which can be found in `data\mergedBandswithSCL.tif`. 
 8.  There was a color mismatch so I edited the virtual layer and set the BGR (Bands 2,3,4 respectively), and I was able to see an observable satellite map of Berlin (And its surroundings). I got the information of the bands from SatimagingCorp website. [[6]](#6)
 9.  I could see the Satellite images have an EPSG of 32633, hence I created a new AOI with EPSG 32633 with the name as `data\remote_sensing_challenge_AOI32633.geojson`
-10. Just to validate the Correct data has been downloaded, I verified by adding the AOI on top of the layer, and the image can be seen [here](https://user-images.githubusercontent.com/75158219/125833711-6d6af508-8483-416e-ad5d-85e8f72b7954.png) 
+10. Just to validate the Correct data has been downloaded, I verified by adding the AOI on top of the layer, and the image can be seen [here](https://user-images.githubusercontent.com/75158219/125833711-6d6af508-8483-416e-ad5d-85e8f72b7954.png) or from `images\Task1_satellite_aoi_validate.png`
 
 
 
@@ -46,20 +46,6 @@ https://en.wikipedia.org/wiki/Sentinel-2
 https://sentinel.esa.int/web/sentinel/technical-guides/sentinel-2-msi/level-2a/algorithm
 * <a id="6">[6]</a> 
 https://www.satimagingcorp.com/satellite-sensors/other-satellite-sensors/sentinel-2a/
-
-
-
-
-
-10. I could see the Satellite images have an EPSG of 32633, hence I created a new aoi with EPSG 32633 with the name as remote_sensing_challenge_AOI32633.geojson
-11. Just to validate the Correct data has been downloaded, I verified by adding the AOI on top of the layer, and here is the output. ![image](https://user-images.githubusercontent.com/75158219/125833711-6d6af508-8483-416e-ad5d-85e8f72b7954.png)
-12. For Sentinel Data information, click [here](https://user-images.githubusercontent.com/75158219/125817870-a203715b-a81d-4f8b-936e-ca3fc8ca1f9b.png)
-Reference taken from https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l2a/
-SCL - Scene Classification Data
-11. Converting the SCL Layers to NoValue. https://sentinel.esa.int/web/sentinel/technical-guides/sentinel-2-msi/level-2a/algorithm
-12. 
-
-
 
 
 
