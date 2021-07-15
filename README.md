@@ -25,3 +25,15 @@ pip install pyspark --user
 
 rio env --formats
 
+
+First I thought to take the data from : USGS bur The partnership between ESA and the USGS allows for the distribution of Level-1C top-of-atmosphere (TOA) reflectance data. Level-1C processing includes radiometric and geometric corrections along with orthorectification to generate highly accurate geolocated products.
+
+
+FIrst I rad abbout the Satellite data : https://eox.at/2015/12/understanding-sentinel-2-satellite-data/
+
+![image](https://user-images.githubusercontent.com/75158219/125773086-38f4bec2-fefc-4892-8f94-c7098cfbc405.png)
+
+
+
+![image](https://user-images.githubusercontent.com/75158219/125773712-00af2bbf-5454-4a66-a839-b0b80a19ad9a.png) - https://dragon3.esa.int/web/sentinel/technical-guides/sentinel-2-msi/level-2a/algorithm
+
