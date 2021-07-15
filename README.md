@@ -37,3 +37,7 @@ FIrst I rad abbout the Satellite data : https://eox.at/2015/12/understanding-sen
 
 ![image](https://user-images.githubusercontent.com/75158219/125773712-00af2bbf-5454-4a66-a839-b0b80a19ad9a.png) - https://dragon3.esa.int/web/sentinel/technical-guides/sentinel-2-msi/level-2a/algorithm
 
+
+
+![image](https://user-images.githubusercontent.com/75158219/125789289-d30e62f4-2a3a-4acb-8e93-4daa80369390.png)
+ https://www.satimagingcorp.com/satellite-sensors/other-satellite-sensors/sentinel-2a/
