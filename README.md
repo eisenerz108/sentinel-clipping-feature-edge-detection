@@ -13,10 +13,12 @@ Steps :
    * Year 2020 
    * (Through this I was able to download the correct data with the requirement - `Sentinel-2 level 2A tile from any practical TOI (2019 or 2020)`
 6. I selected the 12 (Total 13, but removed 10 - cirrus band that gives no ground information) specific bands which are needed which I refered from [here](https://en.wikipedia.org/wiki/Sentinel-2)
-7. I opened those 12 Bands in the QGIS as created a Virtual Layer using all the raster files. I read the description about the Blue, Green and Red bands from https://www.satimagingcorp.com/satellite-sensors/other-satellite-sensors/sentinel-2a/
-8. I created a virtual Layer of the BGR Bands (2,3,4), but there was a color mismatch, so I edited the virtual layer and set the BGR (Specific to each band), and I was able to see an observable satellite map of Berlin (And surroundings). 
-9. Just to validate the Correct data has been downloaded, I verified by adding the AOI on top of the layer, and here is the output. ![image](https://user-images.githubusercontent.com/75158219/125797631-ee2083a9-ead1-43ee-8da8-0556fbf9968d.png)
-10. For SEntinel Data information, click [here](https://user-images.githubusercontent.com/75158219/125817870-a203715b-a81d-4f8b-936e-ca3fc8ca1f9b.png)
+7. I selected the SCL Layer (20m), and opened it in SQIS to make the are `NO_DATA`,`SATURATED_OR_DEFECTIVE`, `CLOUD_HIGH_PROBABILITY` as NOVALUE. The label for each classification I found from here (https://sentinel.esa.int/web/sentinel/technical-guides/sentinel-2-msi/level-2a/algorithm)
+8. I opened those 13 Bands (12 + 1 SCL) in the QGIS as created a Virtual Layer using all the raster files. I read the description about the Blue, Green and Red bands from https://www.satimagingcorp.com/satellite-sensors/other-satellite-sensors/sentinel-2a/
+9. I created a virtual Layer of the BGR Bands (2,3,4), but there was a color mismatch, so I edited the virtual layer and set the BGR (Specific to each band), and I was able to see an observable satellite map of Berlin (And surroundings). 
+10. I could see the Satellite images have an EPSG of 32633, hence I created a new aoi with EPSG 32633 with the name as remote_sensing_challenge_AOI32633.geojson
+11. Just to validate the Correct data has been downloaded, I verified by adding the AOI on top of the layer, and here is the output. ![image](https://user-images.githubusercontent.com/75158219/125833711-6d6af508-8483-416e-ad5d-85e8f72b7954.png)
+12. For Sentinel Data information, click [here](https://user-images.githubusercontent.com/75158219/125817870-a203715b-a81d-4f8b-936e-ca3fc8ca1f9b.png)
 Reference taken from https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l2a/
 SCL - Scene Classification Data
 11. Converting the SCL Layers to NoValue. https://sentinel.esa.int/web/sentinel/technical-guides/sentinel-2-msi/level-2a/algorithm
