@@ -34,7 +34,9 @@
 11. All the bands (12 + SCL with NOVALUE for 3 parameter) were merged into a GeoTIFF. (`data\mergedBandswithSCL.tif`), which will serve as the input for the clipping in the jupyer notebook. 
 12. The Final Output can be seen below or in the file `images\task1_clipped_output.png`
 
-![image](https://user-images.githubusercontent.com/75158219/125857895-3eb3f8c6-1ff2-4512-a39a-ee9e0ee0dcd1.png)
+![image](https://user-images.githubusercontent.com/75158219/125858049-f267ea16-3d35-49f2-a307-f248ce6358d3.png)
+
+
 
 
 
