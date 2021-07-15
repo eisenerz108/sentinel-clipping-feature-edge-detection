@@ -16,7 +16,10 @@ Steps :
 7. I opened those 12 Bands in the QGIS as created a Virtual Layer using all the raster files. I read the description about the Blue, Green and Red bands from https://www.satimagingcorp.com/satellite-sensors/other-satellite-sensors/sentinel-2a/
 8. I created a virtual Layer of the BGR Bands (2,3,4), but there was a color mismatch, so I edited the virtual layer and set the BGR (Specific to each band), and I was able to see an observable satellite map of Berlin (And surroundings). 
 9. Just to validate the Correct data has been downloaded, I verified by adding the AOI on top of the layer, and here is the output. ![image](https://user-images.githubusercontent.com/75158219/125797631-ee2083a9-ead1-43ee-8da8-0556fbf9968d.png)
-10. 
+10. For SEntinel Data information, click [here](https://user-images.githubusercontent.com/75158219/125817870-a203715b-a81d-4f8b-936e-ca3fc8ca1f9b.png)
+Reference taken from https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l2a/
+SCL - Scene Classification Data
+
 
 
 
