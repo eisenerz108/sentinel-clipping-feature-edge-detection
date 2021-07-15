@@ -3,6 +3,7 @@
 ## Contents :
 1. [Tools Used And Data](#tools-used-and-data)
 2. [Steps Executed](#steps-executed-data-preprocessing)
+3. [References](#references)
 
 
 ### Tools Used and Data 
@@ -30,10 +31,14 @@
 8.  There was a color mismatch so I edited the virtual layer and set the BGR (Bands 2,3,4 respectively), and I was able to see an observable satellite map of Berlin (And its surroundings). I got the information of the bands from SatimagingCorp website. [[6]](#6)
 9.  I could see the Satellite images have an EPSG of 32633, hence I created a new AOI with EPSG 32633 with the name as `data\remote_sensing_challenge_AOI32633.geojson`
 10. Just to validate the Correct data has been downloaded, I verified by adding the AOI on top of the layer, and the image can be seen [here](https://user-images.githubusercontent.com/75158219/125833711-6d6af508-8483-416e-ad5d-85e8f72b7954.png) or from `images\Task1_satellite_aoi_validate.png`
+11. All the bands (12 + SCL with NOVALUE for 3 parameter) were merged into a GeoTIFF. (`data\mergedBandswithSCL.tif`), which will serve as the input for the clipping in the jupyer notebook. 
 
 
 
-## References
+
+
+### References
+
 * <a id="1">[1]</a> 
 https://drive.google.com/file/d/1cYulst52qOsx1VOOtVQo5sRdUugYqEpl/view
 * <a id="2">[2]</a> 
