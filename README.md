@@ -32,6 +32,10 @@
 9.  I could see the Satellite images have an EPSG of 32633, hence I created a new AOI with EPSG 32633 with the name as `data\remote_sensing_challenge_AOI32633.geojson`
 10. Just to validate the Correct data has been downloaded, I verified by adding the AOI on top of the layer, and the image can be seen [here](https://user-images.githubusercontent.com/75158219/125833711-6d6af508-8483-416e-ad5d-85e8f72b7954.png) or from `images\Task1_satellite_aoi_validate.png`
 11. All the bands (12 + SCL with NOVALUE for 3 parameter) were merged into a GeoTIFF. (`data\mergedBandswithSCL.tif`), which will serve as the input for the clipping in the jupyer notebook. 
+12. The Final Output can be seen below or in the file `images\task1_clipped_output.png`
+
+![image](https://user-images.githubusercontent.com/75158219/125857895-3eb3f8c6-1ff2-4512-a39a-ee9e0ee0dcd1.png)
+
 
 
 
