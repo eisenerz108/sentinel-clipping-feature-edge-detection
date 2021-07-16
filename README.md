@@ -41,6 +41,8 @@
 
 
 
+## Task 2 
+https://github.com/sentinel-hub/eo-learn
 
 
 
