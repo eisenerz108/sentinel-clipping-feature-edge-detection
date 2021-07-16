@@ -26,7 +26,7 @@
    * Year 2020 
    * (Through this I was able to download the correct data with the requirement - `Sentinel-2 level 2A tile from any practical TOI (2019 or 2020)`
 5. I selected the 12 (Total 13, but removed 10 - cirrus band which gives no ground information) specific bands which are needed and put them in the folder `13bands`. I refered this information from Wikipedia [[4]](#4)
-6. I selected the SCL Layer (20m), and opened it in SQIS to make the `NO_DATA`,`SATURATED_OR_DEFECTIVE`, `CLOUD_HIGH_PROBABILITY` as NOVALUE, and saved the new file as `data\13bands\scllayer_nodata_band.tif` . The label for each classification I found from the Sentinel Website [[5]](#5)
+6. I selected the SCL Layer (20m), and opened it in SQIS to make the `NO_DATA`,`SATURATED_OR_DEFECTIVE`, `CLOUD_HIGH_PROBABILITY` as NOVALUE, (*In QGIS, we get an option to set the No Data Values when saving the Raster Layer*) and saved the new file as `data\13bands\scllayer_nodata_band.tif` . The label for each classification I found from the Sentinel Website [[5]](#5)
 7.  I opened those 13 Bands (12 + 1 SCL) in the QGIS and created a Virtual Layer and eventually merged all of the bands in the TGIF format (which can be found in `data\mergedBandswithSCL.tif`. 
 8.  There was a color mismatch so I edited the virtual layer and set the BGR (Bands 2,3,4 respectively), and I was able to see an observable satellite map of Berlin (And its surroundings). I got the information of the bands from SatimagingCorp website. [[6]](#6)
 9.  I could see the Satellite images have an EPSG of 32633, hence I created a new AOI with EPSG 32633 with the name as `data\remote_sensing_challenge_AOI32633.geojson`
