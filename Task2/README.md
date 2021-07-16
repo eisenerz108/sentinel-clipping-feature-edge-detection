@@ -2,7 +2,7 @@
 
 ## Contents :
 1. [Tools Used And Data](#tools-used-and-data)
-2. [Steps Executed](#steps-executed-data-preprocessing)
+2. [Steps Executed](#steps-executed)
 3. [References](#references)
 
 
