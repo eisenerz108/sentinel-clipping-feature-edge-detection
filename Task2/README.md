@@ -28,3 +28,8 @@ magick convert -delay 80 -loop 0 Task2_2_ED_GreyOriginalImage.jpg Task2_2_ED_Can
 
 
 To Blur the noise, high frequency commponenet, we use thelow pass filetering. uSED TO EXTRACT LARGE OBJECTS IN THE IMAGE. 
+
+https://docs.opencv.org/3.4/d4/d86/group__imgproc__filter.html
+https://www.researchgate.net/publication/339457592_Image_Enhancement_on_OpenCV_based_on_the_Tools_Python_27 - Research Paper
+https://medium.com/nattadet-c/image-filters-41c23f09c600
+
