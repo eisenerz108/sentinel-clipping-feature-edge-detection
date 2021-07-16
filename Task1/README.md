@@ -1,4 +1,4 @@
-# Aman_GIS_LiveEO_Task
+# Aman_GIS_LiveEO_Task_1
 
 ## Contents :
 1. [Tools Used And Data](#tools-used-and-data)
@@ -8,7 +8,7 @@
 
 ### Tools Used and Data 
 
-* **Jupter Notebook** - GIS Virtual Env was already ready with me. 
+* **Jupter Notebook** - GIS Virtual Env was already ready with me. - Good for Printing KeplerGL and ShapeFiles
 * **QGIS** - For viewing the Data
 * **GitHub** - Version Control
 * **Data** - Area of Interest Data was downloaded from the Google Driver [[1]](#1) in GeoJSON format 
