@@ -7,13 +7,13 @@
 
 
 
-## Tools Used And Data
+### Tools Used And Data
 * PyCharm IDE - As this task has less of interim image displays, I worked on PyCharm as I am more comfortable in that. 
 * GitHub - Version Control
 * Data - I downloaded the Data from Google Maps as the Task1 Data was not very clear. 
 * Magick - To Convert the images into GIF
 
-## Steps Executed
+### Steps Executed
 
 
 https://github.com/sentinel-hub/eo-learn https://github.com/developmentseed/label-maker/tree/master/examples
