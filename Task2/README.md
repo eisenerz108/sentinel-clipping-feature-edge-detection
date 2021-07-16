@@ -25,3 +25,6 @@ https://github.com/developmentseed/label-maker/tree/master/examples
 
 
 magick convert -delay 80 -loop 0 Task2_2_ED_GreyOriginalImage.jpg Task2_2_ED_Canny.jpg Task2_2_ED_SobelCombined.jpg Task2_2_ED_SobelX.jpg Task2_2_ED_SobelY.jpg Task2_2_ED_Laplacian.jpg Task2_2_ED_CombinedGIF.gif
+
+
+To Blur the noise, high frequency commponenet, we use thelow pass filetering. uSED TO EXTRACT LARGE OBJECTS IN THE IMAGE. 
