@@ -18,7 +18,7 @@
 
 1. I processed the GeoJSON data in Jupyter Notebook. 
 
-2. 2. Using Kepler GL, I found the AreaofInterest is North Eastern Part of Berlin, Germany. Picture can be found [here](https://user-images.githubusercontent.com/75158219/125793336-f5376d2b-d7e4-422f-84db-51c812989205.png) or from `images\Task1_KeplerGLLocationDetection.png`
+2. Using Kepler GL, I found the AreaofInterest is North Eastern Part of Berlin, Germany. Picture can be found [here](https://user-images.githubusercontent.com/75158219/125793336-f5376d2b-d7e4-422f-84db-51c812989205.png) or from `images\Task1_KeplerGLLocationDetection.png`
 
 3. I was downloading the data from USGS Gov Website [[2]](#2), but the partnership between ESA and the USGS allows only for the distribution of Level-1C. As per the Task we need Level 2-A Data. 
 
