@@ -17,21 +17,32 @@
 ### Steps Executed Data Preprocessing
 
 1. I processed the GeoJSON data in Jupyter Notebook. 
-2. Using Kepler GL, I found the AreaofInterest is North Eastern Part of Berlin, Germany. Picture can be found [here](https://user-images.githubusercontent.com/75158219/125793336-f5376d2b-d7e4-422f-84db-51c812989205.png) or from `images\Task1_KeplerGLLocationDetection.png`
+
+2. 2. Using Kepler GL, I found the AreaofInterest is North Eastern Part of Berlin, Germany. Picture can be found [here](https://user-images.githubusercontent.com/75158219/125793336-f5376d2b-d7e4-422f-84db-51c812989205.png) or from `images\Task1_KeplerGLLocationDetection.png`
+
 3. I was downloading the data from USGS Gov Website [[2]](#2), but the partnership between ESA and the USGS allows only for the distribution of Level-1C. As per the Task we need Level 2-A Data. 
+
 4. Finally, I downloaded the data from Copernicus Open Access Hub [[3]](#3) with the following properties :
    * Selected the Berlin Location
    * In the advanced search I selected Mission - Sentinel 2
    * Product Type as S2MSI2A
    * Year 2020 
    * (Through this I was able to download the correct data with the requirement - `Sentinel-2 level 2A tile from any practical TOI (2019 or 2020)`
+
 5. I selected the 12 (Total 13, but removed 10 - cirrus band which gives no ground information) specific bands which are needed and put them in the folder `13bands`. I refered this information from Wikipedia [[4]](#4)
+
 6. I selected the SCL Layer (20m), and opened it in SQIS to make the `NO_DATA`,`SATURATED_OR_DEFECTIVE`, `CLOUD_HIGH_PROBABILITY` as NOVALUE, (*In QGIS, we get an option to set the No Data Values when saving the Raster Layer*) and saved the new file as `data\13bands\scllayer_nodata_band.tif` . The label for each classification I found from the Sentinel Website [[5]](#5)
+
 7.  I opened those 13 Bands (12 + 1 SCL) in the QGIS and created a Virtual Layer.
+
 8.  There was a color mismatch so I edited the virtual layer and set the BGR (Bands 2,3,4 respectively), and I was able to see an observable satellite map of Berlin (And its surroundings). I got the information of the bands from SatimagingCorp website. [[6]](#6)
+
 9.  I could see the Satellite images have an EPSG of 32633, hence I created a new AOI with EPSG 32633 with the name as `data\remote_sensing_challenge_AOI32633.geojson`
+
 10. Just to validate the Correct data has been downloaded, I verified by adding the AOI on top of the layer, and the image can be seen [here](https://user-images.githubusercontent.com/75158219/125833711-6d6af508-8483-416e-ad5d-85e8f72b7954.png) or from `images\Task1_satellite_aoi_validate.png`
+
 11. All the bands (12 + SCL with NOVALUE for 3 parameter) were merged into a GeoTIFF. (`data\mergedBandswithSCL.tif`), which will serve as the input for the clipping in the jupyer notebook. 
+
 12. The Final Output can be seen below or in the file `images\task1_clipped_output.png` and the final clipped GeoTIFF will be found in `data\clippedGeoTIFF.tif`
 
 ![image](https://user-images.githubusercontent.com/75158219/125858178-eb84d6a2-deb5-4ced-bedc-46dea4563f93.png)
