@@ -55,6 +55,8 @@ https://pypi.org/project/opencv-python/
 https://www.youtube.com/watch?v=DZtUt4bKtmY
 https://www.researchgate.net/publication/344298612_Object_Detection_and_Image_Segmentation_with_Deep_Learning_on_Earth_Observation_Data_A_Review-Part_II_Applications
 https://www.semanticscholar.org/paper/Satellite-Image-Segmentation-for-Building-Detection-Chhor-Aramburu/abb13964a435e1ac0c77b7dd68095e9da81b90aa
+extension://bfdogplmndidlpjfhoijckpakkdjkkil/pdf/viewer.html?file=http%3A%2F%2Fwww.diva-portal.org%2Fsmash%2Fget%2Fdiva2%3A1321511%2FFULLTEXT02.pdf -> FEATURE DETECTION FOR GEOSPATIAL REFERENCINGNiklas Nilsson
+
 
 
 
