@@ -33,3 +33,10 @@ https://docs.opencv.org/3.4/d4/d86/group__imgproc__filter.html
 https://www.researchgate.net/publication/339457592_Image_Enhancement_on_OpenCV_based_on_the_Tools_Python_27 - Research Paper
 https://medium.com/nattadet-c/image-filters-41c23f09c600
 
+
+
+
+File Name Legend : 
+* FD  - Feature Detection
+* ED  - Edge Detection
+* LPF - Low Pass Filter
