@@ -48,7 +48,8 @@
 
 12. The Final Output can be seen below (With the AOI) or in the file `images\task1_clipped_output.png` and the final clipped GeoTIFF will be found in `data\clippedGeoTIFF.tif`
 
-![image](https://user-images.githubusercontent.com/75158219/125858178-eb84d6a2-deb5-4ced-bedc-46dea4563f93.png)
+![image](https://user-images.githubusercontent.com/75158219/126042754-0f15afe6-ab47-4cf1-8772-7d33b07f8877.png)
+
 
 
 ### Uses 
