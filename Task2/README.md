@@ -56,8 +56,19 @@ Description - #TODO
 
 
 #### SubTask 3 
-https://medium.com/nattadet-c/image-filters-41c23f09c600 
-https://docs.opencv.org/3.4/d4/d86/group__imgproc__filter.html
+
+Description - #TODO
+
+1. I first read about the filter from the medium article [[7]](#7), freeCodeCamp.org Youtube channel [[8]](#8) and the OpenCV API Documentation [[9]](#9)
+
+2. I used, filter2D, blur and GaussianBlur Image blurring techniques, and for filter2D I created two Kernels -> (5,5) and (3,3)
+
+3. The outputs of each Image blurring techniques are stored in the `images\Task2_3_LPF_Blur`, `images\Task2_3_LPF_Gassian_Blur`, `images\Task2_3_LPF_Convolved3`, `images\Task2_3_LPF_Convolved5`, and the combined image in the `images\Task2_3_LPF_AllFiltersCombined`, and can be seen below. 
+
+![image](https://user-images.githubusercontent.com/75158219/126036302-88fbcf59-204d-4732-8baa-0a01e44f8487.png)
+
+
+
 
 **Description** - To Blur the noise, high frequency commponenet, we use thelow pass filetering. uSED TO EXTRACT LARGE OBJECTS IN THE IMAGE. 
 
@@ -93,6 +104,12 @@ https://docs.opencv.org/3.4/db/d27/tutorial_py_table_of_contents_feature2d.html
 https://docs.opencv.org/3.4/da/d22/tutorial_py_canny.html
 
 * <a id="6">[6]</a> https://www.bogotobogo.com/python/OpenCV_Python/python_opencv3_Image_Gradient_Sobel_Laplacian_Derivatives_Edge_Detection.php
+
+* <a id="7">[7]</a> https://medium.com/nattadet-c/image-filters-41c23f09c600
+
+* <a id="8">[8]</a> https://www.youtube.com/watch?v=oXlwWbU8l2o
+
+* <a id="9">[9]</a> https://docs.opencv.org/3.4/d4/d86/group__imgproc__filter.html
 
 
 
