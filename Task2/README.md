@@ -27,11 +27,11 @@
 
 ### Steps Executed
 
-#### Common Task 
+#### a) Common Task 
 1. I created a util class to read the file (Colour and Grey format) and to write the image on the disk. (Util class will be used in all 3 SubTasks). Methods created are `readFile_coloured()`, `readFile_gray()` and `writeImage()`. 
 
 
-#### SubTask 1
+#### b) SubTask 1
 
 Description - #TODO
 1. I used two algorithms for the Feature Detection. *SIFT* and *ORB*. 
@@ -49,7 +49,7 @@ Description - #TODO
 
 
 
-#### SubTask 2 
+#### c) SubTask 2 
 
 Description - #TODO
 1. For Edge Detection, I used Canny [[5]](#5), Laplacian and Sobel Algorithms [[6]](#6)
@@ -63,7 +63,7 @@ Description - #TODO
 
 
 
-#### SubTask 3 
+#### d) SubTask 3 
 
 Description - #TODO
 
