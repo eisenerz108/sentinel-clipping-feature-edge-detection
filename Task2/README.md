@@ -89,19 +89,6 @@ https://docs.opencv.org/3.4/da/d22/tutorial_py_canny.html
 https://www.bogotobogo.com/python/OpenCV_Python/python_opencv3_Image_Gradient_Sobel_Laplacian_Derivatives_Edge_Detection.php
 
 
-Archive Links 
-
-https://github.com/sentinel-hub/eo-learn 
-https://github.com/developmentseed/label-maker/tree/master/examples
-https://medium.com/sentinel-hub/introducing-eo-learn-ab37f2869f5c 
-https://github.com/robmarkcole/satellite-image-deep-learning 
-https://towardsdatascience.com/the-best-earth-observation-data-science-toolkits-a51d867343a0
-https://www.youtube.com/watch?v=Rv-yK7Vbk4o
- https://www.researchgate.net/publication/344298612_Object_Detection_and_Image_Segmentation_with_Deep_Learning_on_Earth_Observation_Data_A_Review-Part_II_Applications 
-
-
-
-
 
 File Name Legend : 
 * FD  - Feature Detection
