@@ -90,8 +90,7 @@ https://docs.opencv.org/3.4/db/d27/tutorial_py_table_of_contents_feature2d.html
 * <a id="5">[5]</a>
 https://docs.opencv.org/3.4/da/d22/tutorial_py_canny.html
 
-* <a id="6">[6]</a>
-https://www.bogotobogo.com/python/OpenCV_Python/python_opencv3_Image_Gradient_Sobel_Laplacian_Derivatives_Edge_Detection.php
+* <a id="6">[6]</a> https://www.bogotobogo.com/python/OpenCV_Python/python_opencv3_Image_Gradient_Sobel_Laplacian_Derivatives_Edge_Detection.php
 
 
 
