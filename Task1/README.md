@@ -29,7 +29,7 @@
    * Year 2020 
    * (Through this I was able to download the correct data with the requirement - `Sentinel-2 level 2A tile from any practical TOI (2019 or 2020)`
 
-5. I selected the 12 (Total 13, but removed 10 - cirrus band which gives no ground information) specific bands which are needed and put them in the folder `13bands`. I refered this information from Wikipedia [[4]](#4)
+5. I selected the 12 (Total 13, but removed 10 - cirrus band which gives no ground information) specific bands which are needed and put them in the folder `13bands` from the .SAFE folder data structure downloaded from Copernicus Access Hub. I refered the information of the Sentinel 2 bands from Wikipedia [[4]](#4)
 
 6. I selected the SCL Layer (20m), and opened it in SQIS to make the `NO_DATA`,`SATURATED_OR_DEFECTIVE`, `CLOUD_HIGH_PROBABILITY` as NOVALUE, (*In QGIS, we get an option to set the No Data Values when saving the Raster Layer*) and saved the new file as `data\13bands\scllayer_nodata_band.tif` . The label for each classification I found from the Sentinel Website [[5]](#5)
 
