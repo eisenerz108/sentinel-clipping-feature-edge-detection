@@ -33,6 +33,7 @@
 
 
 #### SubTask 1
+(Please open the file `Task2_1_FeatureDetection.py`)
 
 1. I used two algorithms for the Feature Detection. *SIFT* and *ORB*. 
 
@@ -50,6 +51,7 @@
 
 
 #### SubTask 2 
+(Please open the file `Task2_2_EdgeDetection.py`)
 
 1. For Edge Detection, I used Canny [[5]](#5), Laplacian and Sobel Algorithms [[6]](#6)
 
@@ -63,7 +65,7 @@
 
 
 #### SubTask 3 
-
+(Please open the file `Task2_3_LowPassFilter.py`)
 1. I first read about the filter from the medium article [[7]](#7), freeCodeCamp.org Youtube channel [[8]](#8) and the OpenCV API Documentation [[9]](#9)
 
 2. I used, filter2D, blur and GaussianBlur Image blurring techniques, and for filter2D I created two Kernels -> (5,5) and (3,3)
