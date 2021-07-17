@@ -16,6 +16,7 @@
 
 
 ### Steps Executed Data Preprocessing
+(Please open the file `Task1_ClippingSentinel2Data.ipynb`)
 
 1. I processed the GeoJSON data in Jupyter Notebook. 
 
