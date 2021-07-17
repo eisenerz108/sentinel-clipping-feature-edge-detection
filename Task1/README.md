@@ -55,7 +55,7 @@
 
 ### Uses 
 
-**Data Clipping** - As the data from Satellite Hubs which gets downloaded are far enormous than the Area of Interest, thus clipping helps us to trim the map (data) which only contains the information of and around the Area of Interest. The clipped data is considerably less in size and eventually helps to process the data faster. 
+**Data Clipping** - As the data from Satellite Hubs which gets downloaded are far enormous than the Area of Interest, thus clipping helps us to trim the map (data) which only contains the information of and around the Area of Interest. The clipped data is considerably less in size and eventually helps to process any operation on the clipped data faster. 
 
 ### References
 
