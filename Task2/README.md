@@ -27,9 +27,13 @@
 
 Description - #TODO
 1. I used two algorithms for the Feature Detection. *SIFT* and *ORB*. 
+
 2. Feature Detection using Convolutional neural network would really be beneficial [[1]](#1), but due to lack of time I have used the Computer Vision module CV2. 
+
 3. I read about SIRF [[2]](#2) and about the Feature Detection Algorithms of CV module [[3]](#3)
+
 4. I used the SIFT and ORB Feature Detection Algorithms on the Image, and saved the output. `images\Task2_1_FB_GreyOriginialImage.jpg`, `images\Task2_1_FB_SIFT.jpg` and `images\Task2_1_FB_ORB.jpg`. I had overridden the nfeatures for both the algorithms and set the flag as `DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS`, which will draw a circle with size of keypoint and even show its orientation. A combined image of all three is also stored in `images\Task2_1_FB_CombinedImage.jpeg`. 
+
 5. In future we can also use a label marker. [[4]](#4)
 
 ![image](https://user-images.githubusercontent.com/75158219/126021598-1c5bc4b5-ba32-415c-b91e-bf0ba49f45c3.png)
@@ -41,6 +45,7 @@ Description - #TODO
 
 Description - #TODO
 1. For Edge Detection, I used Canny [[5]](#5), Laplacian and Sobel Algorithms [[6]](#6)
+
 2. I have stored all the images `images\Task2_2_ED_GreyOriginalImage.jpg`, `images\Task2_2_ED_Canny.jpg`, `images\Task2_2_ED_Laplacian.jpg`, `images\Task2_2_ED_SobelX.jpg`, `images\Task2_2_ED_SobelY.jpg`, `images\Task2_2_ED_SobelCombined.jpg`. A combined image can be seen below or in `images\Task2_2_ED_CombinedImage.jpeg`. In addition to these I have also create a gif to see all the Edge Pattern in one transition `images\Task2_2_ED_CombinedGIF`. 
 
 ![image](https://user-images.githubusercontent.com/75158219/126022062-3118ac3c-73d4-4b4d-b4ff-54ecc9e37c18.png)
