@@ -3,18 +3,28 @@
 ## Contents :
 1. [Tools Used And Data](#tools-used-and-data)
 2. [Steps Executed](#steps-executed)
-3. [References](#references)
+   * [Common Task](#common-task)
+   * [Sub - Task 1](#subtask-1)
+   * [Sub - Task 2](#subtask-2)
+   * [Sub - Task 3](#subtask-3)
+5. [References](#references)
 
 
 
 ### Tools Used And Data
 * PyCharm IDE - As this task has less of interim image displays, I worked on PyCharm as I am more comfortable in that. 
 * GitHub - Version Control
-* Data - I downloaded the Data from Google Maps as the Task1 Data was not very clear. 
+* Data - TIF File - Converted to JPG of the Task 1 Output.
 * Magick - To Convert the images into GIF
 
 ### Steps Executed
 
+#### Common Task 
+1. I created a util class to read the file (Colour and Grey format) and to write the image on the disk. (Util class will be used in all 3 SubTasks)
+
+#### SubTask 1
+
+3. 
 
 https://github.com/sentinel-hub/eo-learn https://github.com/developmentseed/label-maker/tree/master/examples
 
