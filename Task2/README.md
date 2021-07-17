@@ -77,9 +77,12 @@
 
 
 
-**Description** - To Blur the noise, high frequency commponenet, we use thelow pass filetering. uSED TO EXTRACT LARGE OBJECTS IN THE IMAGE. 
+ 
 
 ### Uses
+1. **Feature Detection** - In the world of Geospatial, when we are dealing with a lot of Earth Observation Data, with feature detection we can detect Vehicles, Buildings, Vegetations, and a lot of strcutures which can be widely used in Military, Civil Engineering, Urban planning and more
+2. **Edge Detection** - 
+3. **Low Profile Filter** - To Blur the noise, high frequency commponenet, we use thelow pass filetering. uSED TO EXTRACT LARGE OBJECTS IN THE IMAGE. 
 
 
 ### References 
