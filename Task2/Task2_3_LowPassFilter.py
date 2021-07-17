@@ -17,7 +17,7 @@ con_image_3 = cv2.filter2D(img, -1, kernel_3)
 blurImg = cv2.blur(img, (5,5))
 gblur = cv2.GaussianBlur(img, (5,5), 0)
 
-titles = ['3_LPF_OriginalImage','3_LPF_Convolved_3','3_LPF_Convolved_5','3_LPF_Blur','3_LPF_Gaussian Blur']
+titles = ['3_LPF_OriginalImage','3_LPF_Convolved_3','3_LPF_Convolved_5','3_LPF_Blur','3_LPF_Gaussian_Blur']
 images = [img, con_image_3, con_image_5, blurImg, gblur]
 
 for title,image in zip(titles,images):

@@ -10,8 +10,8 @@ import numpy as np
 import util
 
 img = util.readFile_gray()
-#img = cv2.GaussianBlur(img, (11,11), 0)
 
+# Blurring an image before Edge Detection is optional, but since it has a different task I have done that in Task2_3
 laplacian = cv2.Laplacian(img, cv2.CV_64F, ksize=5)
 
 canny = cv2.Canny(img, 100, 150)
