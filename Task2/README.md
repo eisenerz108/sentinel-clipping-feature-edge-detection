@@ -26,8 +26,9 @@
 #### SubTask 1
 
 1. I used two algorithms for the Feature Detection. *SIFT* and *ORB*. 
-2. CNN Module, but due to lack of time I couldn't look much into it. 
-https://www.researchgate.net/publication/344298612_Object_Detection_and_Image_Segmentation_with_Deep_Learning_on_Earth_Observation_Data_A_Review-Part_II_Applications
+2. Feature Detection using Convolutional neural network would really be beneficial [[1]](#1)
+3. CNN Module, but due to lack of time I couldn't look much into it. 
+
 3. Read about SIRF - extension://bfdogplmndidlpjfhoijckpakkdjkkil/pdf/viewer.html?file=http%3A%2F%2Fwww.diva-portal.org%2Fsmash%2Fget%2Fdiva2%3A1321511%2FFULLTEXT02.pdf FEATURE DETECTION FOR GEOSPATIAL REFERENCINGNiklas Nilsson
 4. Label Maker - https://github.com/developmentseed/label-maker/tree/master/examples
 
@@ -46,7 +47,9 @@ https://docs.opencv.org/3.4/d4/d86/group__imgproc__filter.html
 
 
 
+### References 
 
+https://www.researchgate.net/publication/344298612_Object_Detection_and_Image_Segmentation_with_Deep_Learning_on_Earth_Observation_Data_A_Review-Part_II_Applications
 
 
 
