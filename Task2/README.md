@@ -20,7 +20,7 @@
 ### Steps Executed
 
 #### Common Task 
-1. I created a util class to read the file (Colour and Grey format) and to write the image on the disk. (Util class will be used in all 3 SubTasks)
+1. I created a util class to read the file (Colour and Grey format) and to write the image on the disk. (Util class will be used in all 3 SubTasks). Methods created are `readFile_coloured()`, `readFile_gray()` and `writeImage()`. 
 
 
 #### SubTask 1
