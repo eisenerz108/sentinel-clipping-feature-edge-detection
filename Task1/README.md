@@ -3,7 +3,8 @@
 ## Contents :
 1. [Tools Used And Data](#tools-used-and-data)
 2. [Steps Executed](#steps-executed-data-preprocessing)
-3. [References](#references)
+3. [Uses of the Operations Done](#uses)
+4. [References](#references)
 
 
 ### Tools Used and Data 
@@ -49,6 +50,10 @@
 
 ![image](https://user-images.githubusercontent.com/75158219/125858178-eb84d6a2-deb5-4ced-bedc-46dea4563f93.png)
 
+
+### Uses 
+
+**Data Clipping** - As the data from Satellite Hubs which gets downloaded are far enormous than the Area of Interest, thus clipping helps us to trim the map (data) which only contains the information of and around the Area of Interest. The clipped data is considerably less in size helps to process the data faster. 
 
 ### References
 
