@@ -66,8 +66,7 @@
 
 #### SubTask 3 
 (Please open the file `Task2_3_LowPassFilter.py`)
-1. I first read about the filter from the medium article [[7]](#7), freeCodeCamp.org Youtube channel [[8]](#8) and the OpenCV API Documentation [[9]](#9)
-
+1. I first read about the filter from the medium article [[7]](#7), freeCodeCamp.org Youtube channel [[8]](#8), the OpenCV API Documentation [[9]](#9) and a mathematical explanation on the blog [[10]](#10)
 2. I used, filter2D, blur and GaussianBlur Image blurring techniques, and for filter2D I created two Kernels -> (5,5) and (3,3)
 
 3. The outputs of each Image blurring techniques are stored in the `images\Task2_3_LPF_Blur`, `images\Task2_3_LPF_Gassian_Blur`, `images\Task2_3_LPF_Convolved3`, `images\Task2_3_LPF_Convolved5`, and the combined image in the `images\Task2_3_LPF_AllFiltersCombined`, and can be seen below. 
@@ -81,7 +80,7 @@
 
 ### Uses
 1. **Feature Detection** - In the world of Geospatial, when we are dealing with a lot of Earth Observation Data, with feature detection we can detect Vehicles, Buildings, Vegetations, and a lot of strcutures which can be widely used in Military, Civil Engineering, Urban planning and more. Along with proper labelling techniques, we can also label and get to know the number of structures, number of vehicles and more in a given EO data. 
-2. **Edge Detection** -  I believe, Edge Detection can be used to detect the size of the structures like a huge Vegetation Land, a Lake, a huge mall and more. Edge detection can also let us know how many number of structures are present in a certain area. 
+2. **Edge Detection** -  I believe, Edge Detection can be used to detect the size of the structures like a huge Vegetation Land, a Lake, a huge mall and more. Edge detection can also let us know how dense a particular area is with structures. 
 3. **Low Profile Filter** - To Blur the noise, high frequency commponenet, we use thelow pass filetering. uSED TO EXTRACT LARGE OBJECTS IN THE IMAGE. 
 
 
@@ -120,6 +119,8 @@ https://docs.opencv.org/3.4/da/d22/tutorial_py_canny.html
 * <a id="8">[8]</a> https://www.youtube.com/watch?v=oXlwWbU8l2o
 
 * <a id="9">[9]</a> https://docs.opencv.org/3.4/d4/d86/group__imgproc__filter.html
+
+* <a id="10">[9]</a> https://cdn.diffractionlimited.com/help/maximdl/Low-Pass_Filtering.htm
 
 
 
