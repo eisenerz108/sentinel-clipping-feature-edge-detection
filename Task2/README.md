@@ -26,10 +26,10 @@
 #### SubTask 1
 
 1. I used two algorithms for the Feature Detection. *SIFT* and *ORB*. 
-2. Feature Detection using Convolutional neural network would really be beneficial [[1]](#1)
-3. CNN Module, but due to lack of time I couldn't look much into it. 
+2. Feature Detection using Convolutional neural network would really be beneficial [[1]](#1), but due to lack of time I have used the Computer Vision module CV2. 
+3. I read about SIRF [[2]](#2)
 
-3. Read about SIRF - extension://bfdogplmndidlpjfhoijckpakkdjkkil/pdf/viewer.html?file=http%3A%2F%2Fwww.diva-portal.org%2Fsmash%2Fget%2Fdiva2%3A1321511%2FFULLTEXT02.pdf FEATURE DETECTION FOR GEOSPATIAL REFERENCINGNiklas Nilsson
+3. Read about SIRF -  FEATURE DETECTION FOR GEOSPATIAL REFERENCINGNiklas Nilsson
 4. Label Maker - https://github.com/developmentseed/label-maker/tree/master/examples
 
 
@@ -48,9 +48,21 @@ https://docs.opencv.org/3.4/d4/d86/group__imgproc__filter.html
 
 
 ### References 
-
+* <a id="1">[1]</a> TY  - JOUR
+AU  - Hoeser, Thorsten
+AU  - Bachofer, Felix
+AU  - Kuenzer, Claudia
+PY  - 2020/09/18
+SP  - 3053
+T1  - Object Detection and Image Segmentation with Deep Learning on Earth Observation Data: A Review-Part II: Applications
+VL  - 12
+DO  - 10.3390/rs12183053
+JO  - Remote Sensing
+ER  - 
 https://www.researchgate.net/publication/344298612_Object_Detection_and_Image_Segmentation_with_Deep_Learning_on_Earth_Observation_Data_A_Review-Part_II_Applications
-
+* <a id="2">[2]</a>
+Author:Niklas NilssonSupervisors:Villiam Aspegren, Carmenta Geospatial TechnologiesHaidar Al-Naseri, Dep. of Physics, Umeå UniversityExaminer: Eddie Wadbro, Dep. of Computer Science, Umeå Univeristy - 
+[extension://bfdogplmndidlpjfhoijckpakkdjkkil/pdf/viewer.html?file=http%3A%2F%2Fwww.diva-portal.org%2Fsmash%2Fget%2Fdiva2%3A1321511%2FFULLTEXT02.pdf](extension://bfdogplmndidlpjfhoijckpakkdjkkil/pdf/viewer.html?file=http%3A%2F%2Fwww.diva-portal.org%2Fsmash%2Fget%2Fdiva2%3A1321511%2FFULLTEXT02.pdf)
 
 
 Archive Links 
