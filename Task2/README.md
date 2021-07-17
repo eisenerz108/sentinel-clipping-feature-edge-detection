@@ -83,7 +83,7 @@
 ### Uses
 1. **Feature Detection** - In the world of Geospatial, when we are dealing with a lot of Earth Observation Data, with feature detection we can detect Vehicles, Buildings, Vegetations, and a lot of structures which can be widely used in Military, Civil Engineering, Urban planning and more. Along with proper labelling techniques, we can also label and get to know the number of structures, number of vehicles and more in a given EO data. 
 2. **Edge Detection** -  I believe, Edge Detection can be used to detect the size of the structures like a huge Vegetation Land, a Lake, a huge mall and more. Edge detection can also let us know how dense a particular area is with structures. 
-3. **Low Profile Filter** - To Blur the noise, high frequency commponenet, we use thelow pass filetering. uSED TO EXTRACT LARGE OBJECTS IN THE IMAGE. 
+3. **Low Pass Filter** - To Blur the noise, high frequency commponenet, we use thelow pass filetering. uSED TO EXTRACT LARGE OBJECTS IN THE IMAGE. 
 
 
 ### References 
