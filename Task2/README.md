@@ -2,7 +2,8 @@
 
 ## Contents :
 1. [Tools Used And Data](#tools-used-and-data)
-2. [Steps Executed](#steps-executed)
+2. [FileNames Legend](#filenames-legend)
+3. [Steps Executed](#steps-executed)
    * [Common Task](#common-task)
    * [Sub - Task 1](#subtask-1)
    * [Sub - Task 2](#subtask-2)
@@ -16,6 +17,13 @@
 * GitHub - Version Control
 * Data - TIF File - Converted to JPG of the Task 1 Output. `data\Task2_Image.jpg`
 * Magick - To Convert the images into GIF
+
+### FileNames Legend 
+
+* FD  - Feature Detection
+* ED  - Edge Detection
+* LPF - Low Pass Filter
+* util - Utility Class
 
 ### Steps Executed
 
@@ -113,9 +121,4 @@ https://docs.opencv.org/3.4/da/d22/tutorial_py_canny.html
 
 
 
-File Name Legend : 
-* FD  - Feature Detection
-* ED  - Edge Detection
-* LPF - Low Pass Filter
 
-Util Class 
