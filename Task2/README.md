@@ -5,7 +5,7 @@
 2. [FileNames Legend](#filenames-legend)
 3. [Steps Executed](#steps-executed)
    * [Common Task](#common-task)
-   * [Sub - Task 1](#subtask-1)
+   * [Sub - Task 1](#b\)-subtask-1)
    * [Sub - Task 2](#subtask-2)
    * [Sub - Task 3](#subtask-3)
 5. [References](#references)
