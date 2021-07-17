@@ -18,7 +18,7 @@
 ### Steps Executed Data Preprocessing
 (Please open the file `Task1_ClippingSentinel2Data.ipynb`)
 
-1. I processed the GeoJSON data in Jupyter Notebook. 
+1. I processed the GeoJSON data in Jupyter Notebook. (`data\remote_sensing_challenge_AOI.geojson`)
 
 2. Using Kepler GL, I found the AreaofInterest is North Eastern Part of Berlin, Germany. Picture can be found [here](https://user-images.githubusercontent.com/75158219/125793336-f5376d2b-d7e4-422f-84db-51c812989205.png) or from `images\Task1_KeplerGLLocationDetection.png`
 
