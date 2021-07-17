@@ -34,7 +34,6 @@
 
 #### SubTask 1
 
-Description - #TODO
 1. I used two algorithms for the Feature Detection. *SIFT* and *ORB*. 
 
 2. Feature Detection using Convolutional neural network would really be beneficial [[1]](#1), but due to lack of time I have used the Computer Vision module CV2. 
@@ -52,7 +51,6 @@ Description - #TODO
 
 #### SubTask 2 
 
-Description - #TODO
 1. For Edge Detection, I used Canny [[5]](#5), Laplacian and Sobel Algorithms [[6]](#6)
 
 2. I have stored all the images `images\Task2_2_ED_GreyOriginalImage.jpg`, `images\Task2_2_ED_Canny.jpg`, `images\Task2_2_ED_Laplacian.jpg`, `images\Task2_2_ED_SobelX.jpg`, `images\Task2_2_ED_SobelY.jpg`, `images\Task2_2_ED_SobelCombined.jpg`. A combined image can be seen below or in `images\Task2_2_ED_CombinedImage.jpeg`. In addition to these I have also create a gif to see all the Edge Pattern in one transition `images\Task2_2_ED_CombinedGIF`. 
@@ -65,8 +63,6 @@ Description - #TODO
 
 
 #### SubTask 3 
-
-Description - #TODO
 
 1. I first read about the filter from the medium article [[7]](#7), freeCodeCamp.org Youtube channel [[8]](#8) and the OpenCV API Documentation [[9]](#9)
 
