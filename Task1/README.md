@@ -3,7 +3,7 @@
 ## Contents :
 1. [Tools Used And Data](#tools-used-and-data)
 2. [Steps Executed](#steps-executed-data-preprocessing)
-3. [Uses of the Operations Done](#uses)
+3. [Uses](#uses)
 4. [References](#references)
 
 
