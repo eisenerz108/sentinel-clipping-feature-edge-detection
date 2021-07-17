@@ -36,11 +36,11 @@
 
 
 
-### SubTask 2 
+#### SubTask 2 
 https://docs.opencv.org/3.4/da/d22/tutorial_py_canny.html
 
 
-### SubTask 3 
+#### SubTask 3 
 https://medium.com/nattadet-c/image-filters-41c23f09c600 
 https://docs.opencv.org/3.4/d4/d86/group__imgproc__filter.html
 
