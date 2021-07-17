@@ -59,7 +59,7 @@ https://www.usgs.gov/centers/eros/science/usgs-eros-archive-sentinel-2?qt-scienc
 * <a id="3">[3]</a> 
 https://scihub.copernicus.eu/dhus/#/home
 * <a id="4">[4]</a> 
-https://en.wikipedia.org/wiki/Sentinel-2
+https://en.wikipedia.org/wiki/Sentinel-2#Spectral_bands
 * <a id="5">[5]</a> 
 https://sentinel.esa.int/web/sentinel/technical-guides/sentinel-2-msi/level-2a/algorithm
 * <a id="6">[6]</a> 
