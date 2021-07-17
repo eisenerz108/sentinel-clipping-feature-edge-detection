@@ -25,6 +25,7 @@
 
 #### SubTask 1
 
+Description - #TODO
 1. I used two algorithms for the Feature Detection. *SIFT* and *ORB*. 
 2. Feature Detection using Convolutional neural network would really be beneficial [[1]](#1), but due to lack of time I have used the Computer Vision module CV2. 
 3. I read about SIRF [[2]](#2) and about the Feature Detection Algorithms of CV module [[3]](#3)
@@ -37,7 +38,13 @@
 
 
 #### SubTask 2 
-https://docs.opencv.org/3.4/da/d22/tutorial_py_canny.html
+
+Description - #TODO
+1. For Edge Detection, I used Canny [[5]](#5), Laplacian and Sobel Algorithms [[6]](#6)
+2. I have stored all the images `images\Task2_2_ED_GreyOriginalImage.jpg`, `images\Task2_2_ED_Canny.jpg`, `images\Task2_2_ED_Laplacian.jpg`, `images\Task2_2_ED_SobelX.jpg`, `images\Task2_2_ED_SobelY.jpg`, `images\Task2_2_ED_SobelCombined.jpg`. A combined image can be seen below or in `images\Task2_2_ED_CombinedImage.jpeg`. In addition to these I have also create a gif to see all the Edge Pattern in one transition `images\Task2_2_ED_CombinedGIF`. 
+3. ![image](https://user-images.githubusercontent.com/75158219/126022062-3118ac3c-73d4-4b4d-b4ff-54ecc9e37c18.png)
+
+
 
 
 #### SubTask 3 
@@ -73,6 +80,13 @@ https://docs.opencv.org/3.4/db/d27/tutorial_py_table_of_contents_feature2d.html
 
 * <a id="4">[4]</a>
  https://github.com/developmentseed/label-maker/tree/master/examples
+
+* <a id="5">[5]</a>
+https://docs.opencv.org/3.4/da/d22/tutorial_py_canny.html
+
+* <a id="6">[6]</a>
+https://www.bogotobogo.com/python/OpenCV_Python/python_opencv3_Image_Gradient_Sobel_Laplacian_Derivatives_Edge_Detection.php
+
 
 Archive Links 
 
