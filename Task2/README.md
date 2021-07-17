@@ -8,6 +8,7 @@
    * [Sub - Task 1](#subtask-1)
    * [Sub - Task 2](#subtask-2)
    * [Sub - Task 3](#subtask-3)
+4. [Uses](#uses)
 5. [References](#references)
 
 
@@ -80,7 +81,7 @@ Description - #TODO
 
 **Description** - To Blur the noise, high frequency commponenet, we use thelow pass filetering. uSED TO EXTRACT LARGE OBJECTS IN THE IMAGE. 
 
-
+### Uses
 
 
 ### References 
