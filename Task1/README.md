@@ -8,7 +8,7 @@
 
 ### Tools Used and Data 
 
-* **Jupter Notebook** - GIS Virtual Env was already ready with me. - Good for Printing KeplerGL and ShapeFiles
+* **Jupyter Notebook** - I mostly work on PyCharm but packages like Shapely and KeplerGL works better on Jupyter Notebook. The GIS Virtual Env was already ready with me. 
 * **QGIS** - For viewing the Data
 * **GitHub** - Version Control
 * **Data** - Area of Interest Data was downloaded from the Google Driver [[1]](#1) in GeoJSON format 
