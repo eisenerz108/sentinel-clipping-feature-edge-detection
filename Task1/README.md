@@ -10,7 +10,7 @@
 ### Tools Used and Data 
 
 * **Jupyter Notebook** - I mostly work on PyCharm but packages like Shapely and KeplerGL works better on Jupyter Notebook. The GIS Virtual Env was already ready with me. 
-* **QGIS** - For viewing the Data
+* **QGIS** - For viewing and perform some operations on the Data
 * **GitHub** - Version Control
 * **Data** - Area of Interest Data was downloaded from the Google Driver [[1]](#1) in GeoJSON format 
 
