@@ -120,7 +120,7 @@ https://docs.opencv.org/3.4/da/d22/tutorial_py_canny.html
 
 * <a id="9">[9]</a> https://docs.opencv.org/3.4/d4/d86/group__imgproc__filter.html
 
-* <a id="10">[9]</a> https://cdn.diffractionlimited.com/help/maximdl/Low-Pass_Filtering.htm
+* <a id="10">[10]</a> https://cdn.diffractionlimited.com/help/maximdl/Low-Pass_Filtering.htm
 
 
 
