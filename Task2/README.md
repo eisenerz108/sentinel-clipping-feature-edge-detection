@@ -32,7 +32,7 @@ Description - #TODO
 
 3. I read about SIRF [[2]](#2) and about the Feature Detection Algorithms of CV module [[3]](#3)
 
-4. I used the SIFT and ORB Feature Detection Algorithms on the Image, and saved the output. `images\Task2_1_FB_GreyOriginialImage.jpg`, `images\Task2_1_FB_SIFT.jpg` and `images\Task2_1_FB_ORB.jpg`. I had overridden the nfeatures for both the algorithms and set the flag as `DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS`, which will draw a circle with size of keypoint and even show its orientation. A combined image of all three is also stored in `images\Task2_1_FB_CombinedImage.jpeg`. 
+4. I used the SIFT and ORB Feature Detection Algorithms on the Image, and saved the output. `images\Task2_1_FB_GreyOriginialImage.jpg`, `images\Task2_1_FB_SIFT.jpg` and `images\Task2_1_FB_ORB.jpg`. I had overridden the nfeatures for both the algorithms and set the flag as `DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS`, which will draw a circle with size of keypoint and even show its orientation. A combined image of all three is also stored in `images\Task2_1_FB_CombinedImage.jpeg`, and also displayed below. 
 
 5. In future we can also use a label marker. [[4]](#4)
 
