@@ -39,17 +39,15 @@ https://docs.opencv.org/3.4/da/d22/tutorial_py_canny.html
 
 ### SubTask 3 
 https://medium.com/nattadet-c/image-filters-41c23f09c600 
-
-
-
-
-
-
-To Blur the noise, high frequency commponenet, we use thelow pass filetering. uSED TO EXTRACT LARGE OBJECTS IN THE IMAGE. 
-
 https://docs.opencv.org/3.4/d4/d86/group__imgproc__filter.html
-https://www.researchgate.net/publication/339457592_Image_Enhancement_on_OpenCV_based_on_the_Tools_Python_27 - Research Paper
-https://medium.com/nattadet-c/image-filters-41c23f09c600
+
+**Description** - To Blur the noise, high frequency commponenet, we use thelow pass filetering. uSED TO EXTRACT LARGE OBJECTS IN THE IMAGE. 
+
+
+
+
+
+
 
 
 Archive Links 
