@@ -42,7 +42,8 @@ Description - #TODO
 Description - #TODO
 1. For Edge Detection, I used Canny [[5]](#5), Laplacian and Sobel Algorithms [[6]](#6)
 2. I have stored all the images `images\Task2_2_ED_GreyOriginalImage.jpg`, `images\Task2_2_ED_Canny.jpg`, `images\Task2_2_ED_Laplacian.jpg`, `images\Task2_2_ED_SobelX.jpg`, `images\Task2_2_ED_SobelY.jpg`, `images\Task2_2_ED_SobelCombined.jpg`. A combined image can be seen below or in `images\Task2_2_ED_CombinedImage.jpeg`. In addition to these I have also create a gif to see all the Edge Pattern in one transition `images\Task2_2_ED_CombinedGIF`. 
-3. ![image](https://user-images.githubusercontent.com/75158219/126022062-3118ac3c-73d4-4b4d-b4ff-54ecc9e37c18.png)
+
+![image](https://user-images.githubusercontent.com/75158219/126022062-3118ac3c-73d4-4b4d-b4ff-54ecc9e37c18.png)
 
 
 
