@@ -57,7 +57,9 @@
 
 2. I have stored all the images `images\Task2_2_ED_GreyOriginalImage.jpg`, `images\Task2_2_ED_Canny.jpg`, `images\Task2_2_ED_Laplacian.jpg`, `images\Task2_2_ED_SobelX.jpg`, `images\Task2_2_ED_SobelY.jpg`, `images\Task2_2_ED_SobelCombined.jpg`. A combined image can be seen below or in `images\Task2_2_ED_CombinedImage.jpeg`. In addition to these I have also create a gif to see all the Edge Pattern in one transition `images\Task2_2_ED_CombinedGIF`. 
 
-**Note** : 2_ED_Laplacian is not being displayed correctly in the combined file, please open the individual file `image\Task2_2_ED_Laplacian.jpg` to see the correct Edge Pattern
+**Note** : 
+1) 2_ED_Laplacian is not being displayed correctly in the combined file, please open the individual file `image\Task2_2_ED_Laplacian.jpg` to see the correct Edge Pattern
+2) Blurring an image before Edge Detection is optional, but since it has a different task I have done that in Task2_3
 
 ![image](https://user-images.githubusercontent.com/75158219/126022062-3118ac3c-73d4-4b4d-b4ff-54ecc9e37c18.png)
 
