@@ -71,6 +71,6 @@ https://en.wikipedia.org/wiki/Sentinel-2#Spectral_bands
 https://sentinel.esa.int/web/sentinel/technical-guides/sentinel-2-msi/level-2a/algorithm
 * <a id="6">[6]</a> 
 https://www.satimagingcorp.com/satellite-sensors/other-satellite-sensors/sentinel-2a/
-
+a
 
 
