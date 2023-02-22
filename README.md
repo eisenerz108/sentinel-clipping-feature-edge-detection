@@ -1,6 +1,6 @@
 # Aman_Tasks_Sentinel_Data
 
-# Aman_GIS_Task1
+# Aman_Task1
 
 ## Contents :
 1. [Tools Used And Data](#tools-used-and-data)
@@ -76,7 +76,7 @@ https://www.satimagingcorp.com/satellite-sensors/other-satellite-sensors/sentine
 a
 
 
-# Aman_GIS_Task_2
+# Aman_Task_2
 
 ## Contents :
 1. [Tools Used And Data](#tools-used-and-data)
